@@ -5,4 +5,4 @@ A repo of files to be used with various AI coding assistants/agents. These are j
 * NOTE: I will not include any rules files that already exist in other repos. For example, if you use Aider, you can find the .aiderrules template in their repo.
 
 ## Cline
-.clinerules
+cline/.clinerules
