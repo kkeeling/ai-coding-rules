@@ -17,3 +17,5 @@
 - After every task, update unit tests to cover the new functionality. Maintain 100% coverage.
 - After every task, run the tests to ensure they pass. Fix any errors you find.
 - Use debug statements in the function source and function test to fix errors and failed tests. Always remove debug statements when all tests pass.
+- After 5 attempts to resolve the same issue, perform a brave search to get more information
+- If the information in your memory or thinking is older than 2024, perform a brave search to get more information
