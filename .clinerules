@@ -1,6 +1,9 @@
 # Cline Rules
 
 - Using a markdown file named .clinelog.md log every change you make. Include a summary and a list of files you changed for each log entry. If the file does not exist, create it and add it to .gitignore.
+- Do not remove any content from .clinelog.md. Only append content
+- Read the .clinelog.md file at the start of every task to learn what you have done in the past.
+- Use the current date and time in eastern timezone of USA in the format YYYY-MM-DD HH:MM for the log entry. Get the current time using the get_eastern_time tool.
 - Use the following format for the log entry:
 
 ``` markdown
@@ -13,6 +16,7 @@
 - [File 3] - Brief description of changes
 ```
 
+- When the clinelog.md file reaches 100 lines, create a new clinelog.md file and start a new log. Archive the old clinelog.md file by naming it clinelog-YYYY-MM-DD.md.
 - After every task, update the README.md file for the project. If one does not exist, create it.
 - After every task, update unit tests to cover the new functionality. Maintain 100% coverage.
 - After every task, run the tests to ensure they pass. Fix any errors you find.
